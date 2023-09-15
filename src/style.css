@@ -1,7 +1,7 @@
 .card{
   background-color: #BDBDBD;
-  height: 325px;
-  width: 30%;
+  height: 500px;
+  width: 1000px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -11,6 +11,7 @@
   transition: all 0.3s;
   text-decoration: none;
   text-decoration-color: none;
+  font-family: 'Lobster Two', cursive;
 }
 
 .card:hover{
@@ -23,7 +24,6 @@ body{
   justify-content: space-evenly;
   flex-wrap: wrap;
   text-decoration: none;
-  background-color: #757575;
 }
 
 #navbar{
@@ -105,4 +105,13 @@ body{
 .button:hover{
   box-shadow: 0 12px 24px 0 rgba(0,0,0,0.2);
   transform: translateY(-7px);
+}
+
+.image{
+  margin: 25px;
+  size: 10%;
+}
+
+h1{
+  font-family: 'Lobster Two', cursive;
 }
